@@ -6,8 +6,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-account_sid = os.getenv('TWILIO_ACCOUNT_SID')
-auth_token = os.getenv('TWILIO_AUTH_TOKEN')
+account_sid = os.getenv('AC79363b9bb7c28f72841d1efd3415b9b2')
+auth_token = os.getenv('e420450f9609c4fa3c97fd41d26187cb')
 client = Client(account_sid, auth_token)
 
 
